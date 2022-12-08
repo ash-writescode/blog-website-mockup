@@ -21,7 +21,7 @@ header nav {
 
 div.logo {
   display: flex;
-  margin: 0 7em 0 0;
+  margin: 0 7em 0 0.5em;
 }
 
 ul.menuItems {
@@ -31,16 +31,19 @@ ul.menuItems {
 /*style all ul elements with the class s-mediaIcons*/
 ul.s-mediaIcons {
   display: flex;
+  
 }
 
-
+.s-mediaIcons li.fa-brands {
+  margin-right: 0.5em;
+}
 
 .menuItems li.homeLink, .menuItems li.aboutLink, .menuItems li.blogLink {
   margin-right: 2.4em;
 }
 
 .menuItems li.contactLink {
-  margin-right: 7em;
+  margin-right: 5em;
 }
 
 .cards {
@@ -84,9 +87,10 @@ button.readBtn {
   grid-template-rows: 400px;
   grid-template-areas:
     "contact-info sub-form";
-  gap: 1rem;
+  
   width: 100%;
   border: 2px solid red;
+  margin-top:0.5em;
 }
 
 .contactMenu {
