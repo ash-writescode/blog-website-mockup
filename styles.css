@@ -99,18 +99,16 @@ button.readBtn {
   padding: 0.5em;
 }
 
-.contactItem {
+.contactIcon, .contactItem {
   margin: 0.5em;
+}
+
+span.contactItem {
+  font-family: Arial;
 }
 
 form {
   grid-area: sub-form;
-}
-
-p.contactItem {
-  font-family: Arial;
-  font-size: 16px;
-  margin: 0.5em;
 }
 
 input {
