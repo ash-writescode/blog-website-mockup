@@ -126,11 +126,13 @@ input {
 .footer {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 25px;
+  grid-template-rows: 25px 25px;
   grid-template-areas:
-    "s-mediaIcons-ft copyright-ft";
+    "s-mediaIcons-ft"
+    "copyright-ft"; 
+  justify-items: center;
   border: 2px solid red;
-  margin-top:0.5em;
+  margin-top: 0.5em;
 }
 
 .footerMenu {
@@ -141,9 +143,16 @@ input {
 .copyrightIcon {
   grid-area: copyright-ft;
   padding: 0.5em;
+  
 }
 
 span.yearItem {
   font-family: Arial;
   font-weight: normal;
+  font-size: 0.75em;
+}
+
+  /*sets margin for social media icons*/
+  li.s-mediaIcon-sym {
+  margin-right: 0.5em;
 }
