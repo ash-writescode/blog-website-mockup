@@ -128,6 +128,7 @@ input {
   grid-template-areas:
     "s-mediaIcons-ft copyright-ft";
   justify-items: center;
+  place-items: center;
   border: 2px solid red;
   margin-top:0.5em;
 }
