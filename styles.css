@@ -143,13 +143,12 @@ input {
 .copyrightIcon {
   grid-area: copyright-ft;
   padding: 0.5em;
-  
 }
 
 span.yearItem {
   font-family: Arial;
   font-weight: normal;
-  font-size: 0.75em;
+  font-size: 0.80em;
 }
 
   /*sets margin for social media icons*/
