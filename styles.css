@@ -112,6 +112,9 @@ button.readBtn {
 #subBtn {
   font-size: 1em;
   padding: 0.25em;
+  border-radius: 6px;
+  border: none;
+  background-color: #439A97;
 }
 
 span.contactItem {
@@ -138,6 +141,7 @@ input {
   justify-items: center;
   border: 2px solid red;
   margin-top: 0.5em;
+  background-color: #439A97;
 }
 
 .footerMenu {
