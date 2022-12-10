@@ -112,6 +112,7 @@ button.readBtn {
   display: grid;
   grid-area: contact-info;
   justify-content: center;
+  align-items: center;
   background-color: #439A97;
   padding: 0.5em;
   list-style-type: none;
@@ -146,11 +147,11 @@ form {
   display: grid;
   grid-area: sub-form;
   justify-content: center;
-  margin-top: 0.13em;
+  align-items: center;
 }
 
 input {
-  margin: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .footer {
