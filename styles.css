@@ -109,10 +109,14 @@ button.readBtn {
 }
 
 .contactMenu {
+  display: grid;
   grid-area: contact-info;
+  justify-content: center;
   background-color: #439A97;
   padding: 0.5em;
+  list-style-type: none;
 }
+
 
 .contactIcon, .contactItem {
   margin: 0.5em;
@@ -139,7 +143,9 @@ span.contactItem {
 }
 
 form {
+  display: grid;
   grid-area: sub-form;
+  justify-content: center;
   margin-top: 0.13em;
 }
 
