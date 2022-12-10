@@ -15,9 +15,8 @@
 /*all nav that are children of header*/
 header nav {
   display: flex;
-  justify-content: center;
-  align-items: baseline;
-  width: 100%
+  width: 100%;
+  height: 6vh;
   border: 0.125em solid yellow;
   padding: 0.5em 0;
   margin-bottom: 0.5em;
@@ -26,21 +25,31 @@ header nav {
 
 /*sets styling for the logo placeholder in the navigation bar*/
 div.logo {
-  /*display: flex;*/
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
   margin-left: 0.5em;
   flex: 1;
+  border: 0.125em solid orange;
 }
 
 /*creates flex container*/
 ul.menuItems {
   display: flex;
+  justify-content: center;
+  align-items: baseline;
   flex: 3;
+  border: 0.125em solid orange;
 }
 
 /*style all ul elements with the class s-mediaIcons*/
 ul.s-mediaIcons {
   display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
   flex: 1;
+  margin-right: 0.5em;
+  border: 0.125em solid orange;
 }
 
 /*sets margin for social media icons*/
