@@ -142,3 +142,8 @@ input {
   grid-area: copyright-ft;
   padding: 0.5em;
 }
+
+span.yearItem {
+  font-family: Arial;
+  font-weight: normal;
+}
