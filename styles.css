@@ -19,6 +19,7 @@ header nav {
   align-items: center;
   border: 2px solid yellow;
   padding: 0.5em 0;
+  margin-bottom: 0.5em;
 }
 
 /*sets styling for the logo placeholder in the navigation bar*/
@@ -90,7 +91,7 @@ button.readBtn {
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 400px;
+  grid-template-rows: 160px;
   grid-template-areas:
     "contact-info sub-form";
   width: 100%;
@@ -115,6 +116,7 @@ span.contactItem {
 
 form {
   grid-area: sub-form;
+  margin-top: 1.5em;
 }
 
 input {
@@ -127,8 +129,6 @@ input {
   grid-template-rows: 25px;
   grid-template-areas:
     "s-mediaIcons-ft copyright-ft";
-  justify-items: center;
-  place-items: center;
   border: 2px solid red;
   margin-top:0.5em;
 }
