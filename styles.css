@@ -20,6 +20,7 @@ header nav {
   border: 2px solid yellow;
   padding: 0.5em 0;
   margin-bottom: 0.5em;
+  background-color: #439A97
 }
 
 /*sets styling for the logo placeholder in the navigation bar*/
@@ -111,8 +112,8 @@ button.readBtn {
 
 #subBtn {
   font-size: 1em;
-  padding: 0.25em;
-  border-radius: 6px;
+  padding: 0.5em;
+  border-radius: 0.4em;
   border: none;
   background-color: #439A97;
 }
@@ -131,7 +132,7 @@ span.contactItem {
 
 form {
   grid-area: sub-form;
-  margin-top: 0.4em;
+  margin-top: 0.13em;
 }
 
 input {
