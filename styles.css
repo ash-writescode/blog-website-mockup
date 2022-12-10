@@ -129,6 +129,11 @@ input {
   grid-template-rows: 25px;
   grid-template-areas:
     "s-mediaIcons-ft copyright-ft";
+<<<<<<< HEAD
+=======
+  justify-items: center;
+  place-items: center;
+>>>>>>> 95959012e10d49394472509ace7928dd7e437b46
   border: 2px solid red;
   margin-top:0.5em;
 }
@@ -142,8 +147,11 @@ input {
   grid-area: copyright-ft;
   padding: 0.5em;
 }
+<<<<<<< HEAD
 
 span.yearItem {
   font-family: Arial;
   font-weight: normal;
 }
+=======
+>>>>>>> 95959012e10d49394472509ace7928dd7e437b46
