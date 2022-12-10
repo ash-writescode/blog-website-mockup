@@ -147,10 +147,10 @@ form {
   display: grid;
   grid-area: sub-form;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 
-input {
+input #fullName, input #emailAddress {
   margin-bottom: 0.5em;
 }
 
