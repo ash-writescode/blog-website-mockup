@@ -122,3 +122,24 @@ input {
   margin: 0.5em;
 }
 
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25px;
+  grid-template-areas:
+    "s-mediaIcons-ft copyright-ft";
+  justify-items: center;
+  place-items: center;
+  border: 2px solid red;
+  margin-top:0.5em;
+}
+
+.footerMenu {
+  grid-area: s-mediaIcons-ft;
+  padding: 0.5em;
+}
+
+.copyrightIcon {
+  grid-area: copyright-ft;
+  padding: 0.5em;
+}
