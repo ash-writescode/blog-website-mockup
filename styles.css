@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 /*navigation bar items and social media icons in the navigation bar remove default styling*/
@@ -109,6 +109,10 @@ button.readBtn {
   margin: 0.5em;
 }
 
+#subBtn {
+  font-size: 1em;
+}
+
 span.contactItem {
   font-family: Arial;
   font-weight: normal;
@@ -148,7 +152,7 @@ input {
 span.yearItem {
   font-family: Arial;
   font-weight: normal;
-  font-size: 0.80em;
+  font-size: 0.90em;
 }
 
   /*sets margin for social media icons*/
