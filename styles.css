@@ -27,17 +27,19 @@ header nav {
 div.logo {
   display: flex;
   margin: 0 7em 0 0.5em;
+  flex: 1;
 }
 
 /*creates flex container*/
 ul.menuItems {
   display: flex;
+  flex: 2;
 }
 
 /*style all ul elements with the class s-mediaIcons*/
 ul.s-mediaIcons {
   display: flex;
-  
+  flex: 1;
 }
 
 /*sets margin for social media icons*/
@@ -173,6 +175,6 @@ span.yearItem {
   margin-right: 0.5em;
 }
 
-/*@media screen and (min-width: 480px) {
-  header nav {width: 400px; display: flex; flex-direction: column; justify-content: center;}
-}*/
+@media screen and (max-width: 480px) {
+  header nav {width: 400px; display: block;}
+}
