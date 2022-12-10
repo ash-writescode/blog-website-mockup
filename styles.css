@@ -117,8 +117,11 @@ button.readBtn {
   background-color: #439A97;
 }
 
-form input {
+input {
   border: 0.1em solid #439A97;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  
 }
 
 span.contactItem {
@@ -128,7 +131,7 @@ span.contactItem {
 
 form {
   grid-area: sub-form;
-  margin-top: 1.5em;
+  margin-top: 0.4em;
 }
 
 input {
