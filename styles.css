@@ -172,3 +172,7 @@ span.yearItem {
   li.s-mediaIcon-sym {
   margin-right: 0.5em;
 }
+
+/*@media screen and (min-width: 480px) {
+  header nav {width: 400px; display: flex; flex-direction: column; justify-content: center;}
+}*/
