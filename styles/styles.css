@@ -70,6 +70,7 @@ ul.s-mediaIcons {
   gap: 1rem;
   width: 100%;
   border: 0.125em solid red;
+  margin-top: 0.5em;
 }
 
 .blogCard {
@@ -105,7 +106,7 @@ button.readBtn {
     "contact-info sub-form";
   width: 100%;
   border: 2px solid red;
-  margin-top:0.5em;
+  margin-top: 0.5em;
 }
 
 .contactMenu {
