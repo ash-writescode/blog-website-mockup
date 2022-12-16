@@ -58,8 +58,12 @@ ul.s-mediaIcons {
 }
 
 /*sets margin for navigation menu items*/
-.menuItems li.homeLink, .menuItems li.aboutLink, .menuItems li.blogLink {
-  margin-right: 2.4em;
+.homeItem, .aboutItem, .blogItem, .contactItem{
+  margin-right: 2em;
+}*/
+
+.homeItem {
+  margin-left: 2em;
 }
 
 .cards {
@@ -118,7 +122,6 @@ button.readBtn {
   padding: 0.5em;
   list-style-type: none;
 }
-
 
 .contactIcon, .contactItem {
   margin: auto 0.5em;
