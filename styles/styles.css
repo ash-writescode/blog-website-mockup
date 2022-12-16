@@ -58,11 +58,11 @@ ul.s-mediaIcons {
 }
 
 /*sets margin for navigation menu items*/
-.homeItem, .aboutItem, .blogItem, .contactItem{
+.home-Item, .about-Item, .blog-Item, .contact-Item {
   margin-right: 2em;
-}*/
+}
 
-.homeItem {
+.home-Item {
   margin-left: 2em;
 }
 
