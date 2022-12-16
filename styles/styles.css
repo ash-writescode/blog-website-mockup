@@ -47,13 +47,13 @@ ul.s-mediaIcons {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
-  flex: 1;
   margin-right: 0.5em;
+  flex: 1;
   border: 0.125em solid orange;
 }
 
 /*sets margin for social media icons*/
-.s-mediaIcons li.socMedIcons {
+.socMedIcon-fb, .socMedIcon-ig, .socMedIcon-twit {
   margin-right: 0.5em;
 }
 
