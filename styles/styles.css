@@ -110,7 +110,7 @@ button.readBtn {
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 160px;
+  grid-template-rows: 200px;
   grid-template-areas:
     "contact-info sub-form";
   width: 100%;
@@ -138,13 +138,14 @@ button.readBtn {
   border-radius: 0.4em;
   border: none;
   background-color: #439A97;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input {
-  border: 0.1em solid #439A97;
   border-radius: 0.5em;
   padding: 0.5em;
-  width: 21em;
+  width: 17em;
 }
 
 span.contactItem {
@@ -157,10 +158,15 @@ form {
   grid-area: sub-form;
   justify-content: center;
   align-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 input[type=text], input[type=email] {
   margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.1em solid #439A97;
 }
 
 .footer {
