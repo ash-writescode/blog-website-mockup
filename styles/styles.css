@@ -120,7 +120,7 @@ button.readBtn {
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 400px;
+  grid-template-rows: 200px;
   grid-template-areas:
     "contact-info sub-form";
     min-height: 100%;
@@ -173,7 +173,7 @@ form {
   align-content: center;
   margin-top: auto;
   margin-bottom: auto;
-  height: 400px;
+  height: 200px;
   border: 0.1em solid #439A97;
 }
 
