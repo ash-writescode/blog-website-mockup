@@ -7,6 +7,10 @@
   font-size: 1em;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -119,6 +123,8 @@ button.readBtn {
   grid-template-rows: 200px;
   grid-template-areas:
     "contact-info sub-form";
+    min-height: 100%;
+    align-content: end;
   width: 100%;
   border: 2px solid red;
   margin-top: 0.5em;
