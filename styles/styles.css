@@ -162,6 +162,13 @@ form {
   margin-bottom: auto;
 }
 
+form h2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 0.2em;
+}
+
 input[type=text], input[type=email] {
   margin-bottom: 0.5em;
   margin-left: auto;
