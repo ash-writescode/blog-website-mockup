@@ -7,6 +7,12 @@
   font-size: 1em;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 /*navigation bar items and social media icons in the navigation bar remove default styling*/
 .menuItems, .s-mediaIcons {
   list-style-type: none;
@@ -189,15 +195,37 @@ input[type=text], input[type=email] {
   background-color: #439A97;
 }*/
 
-.footerMenu {
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: auto;
+  background-color: #439A97;
+  height: 7em;
+}
+
+/*.footerMenu {
   grid-area: s-mediaIcons-ft;
   padding: 0.5em;
+}*/
+
+.footerMenu, .copyrightIcon {
+  margin: auto;
+}
+
+.footerMenu {
+  margin-bottom: 1em;
 }
 
 .copyrightIcon {
+  margin-top: 0;
+}
+
+/*.copyrightIcon {
   grid-area: copyright-ft;
   padding: 0.5em;
-}
+}*/
 
 span.yearItem {
   font-family: Arial;
