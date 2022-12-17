@@ -6,7 +6,7 @@
 .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px;
+    grid-template-rows: 600px;
     grid-template-areas:
       "contact-info sub-form";
       min-height: 100%;
@@ -31,7 +31,7 @@
     margin: auto 0.5em;
   }
   
-  #subBtn {
+  #sendBtn {
     font-size: 1em;
     padding: 0.5em;
     border-radius: 0.4em;
