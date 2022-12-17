@@ -126,7 +126,7 @@ button.readBtn {
     min-height: 100%;
     align-content: end;
   width: 100%;
-  border: 2px solid red;
+  border: 0.1em solid red;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -171,9 +171,10 @@ form {
   grid-area: sub-form;
   justify-content: center;
   align-content: center;
-  place-items: center;
   margin-top: auto;
   margin-bottom: auto;
+  height: 200px;
+  border: 0.1em solid #439A97;
 }
 
 form h2 {
@@ -181,6 +182,7 @@ form h2 {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: 0.5em;
+  text-align: center;
 }
 
 input[type=text], input[type=email] {
@@ -208,9 +210,9 @@ input[type=text], input[type=email] {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  margin-top: auto;
   background-color: #439A97;
-  height: 7em;
+  height: 10em;
+  border: solid 2px orange;
 }
 
 /*.footerMenu {
@@ -219,15 +221,17 @@ input[type=text], input[type=email] {
 }*/
 
 .footerMenu, .copyrightIcon {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footerMenu {
-  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
 }
 
 .copyrightIcon {
-  margin-top: 0;
+  margin-bottom: 1em;
 }
 
 /*.copyrightIcon {
