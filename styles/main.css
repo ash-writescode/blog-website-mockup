@@ -83,14 +83,14 @@ ul.s-mediaIcons {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 250px);
-  grid-template-rows: 700px;
+  grid-template-columns: repeat(auto-fill, 250px);
+  row-gap: 1rem;
+  column-gap: 1rem;
   justify-content: center;
   align-items: top;
-  gap: 1rem;
   width: 100%;
   border: 0.125em solid red;
-  margin-top: 0.5em;
+  margin-top: 25em;
 }
 
 .blogCard {
@@ -104,6 +104,7 @@ ul.s-mediaIcons {
 
 .blogCardsImage {
   width: 250px;
+  height: 
 }
 
 .readBtn {
@@ -129,6 +130,7 @@ ul.s-mediaIcons {
 }
 
 .postTitle {
+  text-align: left;
   margin-left: 0.75em;
   margin-bottom: 0.75em;
 }
@@ -147,12 +149,11 @@ ul.s-mediaIcons {
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px;
   grid-template-areas:
     "contact-info sub-form";
+    align-content: center;
   width: 100%;
   min-height: 100%;
-    align-content: end;
   border: 0.1em solid red;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -165,6 +166,7 @@ ul.s-mediaIcons {
   align-items: center;
   background-color: #439A97;
   padding: 0.5em;
+  height: 20em;
   list-style-type: none;
 }
 
@@ -193,14 +195,14 @@ span.contactItem {
   font-weight: normal;
 }
 
-form {
+.subMenu {
   display: grid;
   grid-area: sub-form;
   justify-content: center;
   align-content: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  height: 200px;
+  /*margin-top: auto;
+  margin-bottom: auto;*/
+  height: 20em;
   border: 0.1em solid #439A97;
 }
 
