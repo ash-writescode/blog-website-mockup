@@ -1,16 +1,26 @@
-aside {
+.aside-article {
     display: grid;
     border: 2px solid red;
-    grid-template-columns: 100px 1fr;
-    grid-template-rows:
-    ;
+    grid-template-columns: 200px 1fr;
     grid-template-areas: 
-    "aside article";
+    "asd art";
+}
+
+aside {
+    grid-area: asd;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 article {
-    display: grid;
-    border: 2px solid red;
+    grid-area: art;
+}
+
+.rcntPostLst li, .rltdPostLst li, .mstPopPostLst li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
 
 .postParagraph {
