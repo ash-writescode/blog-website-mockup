@@ -1,3 +1,18 @@
+aside {
+    display: grid;
+    border: 2px solid red;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows:
+    ;
+    grid-template-areas: 
+    "aside article";
+}
+
+article {
+    display: grid;
+    border: 2px solid red;
+}
+
 .postParagraph {
     margin: 1em;
 }

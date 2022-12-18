@@ -1,8 +1,22 @@
+.aboutInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 150px 1fr 1fr;
+    grid-template-areas: 
+    "nm nm"
+    "hdsht hdsht"
+    "pargph1 pargph1"
+    "pargph2 pargph2";
+    border: 2px solid red;
+}
+
 .name {
+    grid-area: nm;
     margin-top: 2em;
     margin-left: 1em;
 }
 .headshotPhoto {
+    grid-area: hdsht;
     width: 300;
     height: 300;
     border-radius: 20px;
@@ -10,15 +24,19 @@
     margin-left: 1em;
 }
 
-.para1, .para2
-{
+.para1, .para2 {
     margin-left: 1em;
     margin-right: 1em;
 }
 
 .para1 {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    grid-area: pargph1;
+    margin-top: 2em;
+    padding: 0;
+    border: 2px solid yellow;
 }
 
-
+.para2 {
+    grid-area: pargph2;
+    margin-top: 1em;
+}
