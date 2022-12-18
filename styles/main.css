@@ -27,12 +27,6 @@ header nav {
   display: flex;
   background-color: #439A97;
   height: 2em;
-  /*width: 100%;
-  height: 6vh;
-  border: 0.125em solid yellow;
-  padding: 0.5em 0;
-  margin-bottom: 0.5em;
-  background-color: #439A97*/
 }
 
 /*sets styling for the logo placeholder in the navigation bar*/
