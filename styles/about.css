@@ -1,6 +1,9 @@
+.name {
+    margin-top: 2em;
+}
 .headshotPhoto {
-    width: 150;
-    height: 150;
+    width: 300;
+    height: 300;
     border-radius: 20px;
     margin-top: 2em;
 }
