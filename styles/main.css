@@ -83,9 +83,10 @@ ul.s-mediaIcons {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 250px);
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-template-rows: 700px;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   gap: 1rem;
   width: 100%;
   border: 0.125em solid red;
@@ -96,25 +97,51 @@ ul.s-mediaIcons {
 	background-color: #439A97;
 	border-radius: 5px;
 	color: #CBEDD5;
-	padding: 20px 20px;
-	text-align: center;
+  height: 495px;
+  width: 250px;
+  text-align: center;
 }
 
 .blogCardsImage {
-  width: 100%;
+  width: 250px;
 }
 
-button.readBtn {
+.readBtn {
   width: 210px;
+  height: 40px;
   background-color: #97DECE;
   border: none;
   border-radius: 4px;
-  padding: 0.25em 0;
+  margin-top: 0.75em; 
+  margin-bottom: 1em;
 }
 
 .readBtn a {
   color: #439A97;
   text-decoration: none;
+}
+
+.kicker {
+  text-align: left;
+  font-style: italic;
+  margin-top: 1em;
+  margin-left: 0.75em;
+}
+
+.postTitle {
+  margin-left: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.blogDate, .previewText {
+  text-align: left;
+  margin-top: 0.75em;
+  margin-left: 0.75em;
+}
+
+.previewText {
+  margin-left: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 .contact {
@@ -123,9 +150,9 @@ button.readBtn {
   grid-template-rows: 200px;
   grid-template-areas:
     "contact-info sub-form";
-    min-height: 100%;
-    align-content: end;
   width: 100%;
+  min-height: 100%;
+    align-content: end;
   border: 0.1em solid red;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
