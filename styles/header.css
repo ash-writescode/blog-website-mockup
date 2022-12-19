@@ -1,0 +1,6 @@
+.headerContainer {
+    grid-area: hd;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+  }

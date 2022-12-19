@@ -1,3 +1,7 @@
+@import url('./blogCards.css');
+@import url('./contact.css');
+@import url('./footer.css');
+
 /*universal style selector applies the following styling to the whole page*/
 * {
   box-sizing: border-box;
@@ -7,15 +11,24 @@
   font-size: 1em;
 }
 
-html, body {
-  height: 100%;
+body {
+  height: 100vh;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.fullPageContainer {
+  display: grid;
+  grid-template-columns: 5em 1fr 5em;
+  grid-template-rows: 5em 10em 5em 3em;
+  grid-template-areas:
+    "hd nav smi"
+    "blgcrds blgcrds blgcrds"
+    "ct ct ct"
+    "ft ft ft";
+  height: 100%;
+  border: 2px solid red;
 }
+
+
 
 /*navigation bar items and social media icons in the navigation bar remove default styling*/
 .menuItems, .s-mediaIcons {
