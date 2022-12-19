@@ -4,3 +4,15 @@
     flex-direction: row;
     border: 2px solid red;
   }
+
+  /*navigation bar items and social media icons in the navigation bar remove default styling*/
+.menuItems, .s-mediaIcons {
+    list-style-type: none;
+  }
+  
+  /*all nav that are children of header*/
+  /*header nav {
+    display: flex;
+    background-color: #439A97;
+    height: 2em;
+  }
