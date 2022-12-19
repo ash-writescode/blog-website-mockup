@@ -2,7 +2,8 @@
     grid-area: hd;
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
+    justify-content: space-between;
+    border: 2px solid green;
   }
 
   ul li a {
