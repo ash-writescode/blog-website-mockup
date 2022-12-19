@@ -20,7 +20,7 @@ body {
 .fullPageContainer {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 5em 10em 5em 3em;
+  grid-template-rows: 5em 100em 5em 3em;
   grid-template-areas:
     "hd hd"
     "blgcrds blgcrds"
