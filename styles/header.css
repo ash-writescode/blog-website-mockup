@@ -5,11 +5,22 @@
     border: 2px solid red;
   }
 
+  ul li a {
+    text-decoration: none;
+  }
+
   /*navigation bar items and social media icons in the navigation bar remove default styling*/
 .menuItems, .s-mediaIcons {
     list-style-type: none;
   }
+
+.menuItems {
+    display: flex;
+    flex-direction: row;
+}
   
+
+
   /*all nav that are children of header*/
   /*header nav {
     display: flex;

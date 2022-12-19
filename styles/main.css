@@ -14,6 +14,7 @@
 
 body {
   height: 100vh;
+  border: 2px solid blue;
 }
 
 .fullPageContainer {
@@ -32,19 +33,19 @@ body {
 
 
 /*navigation bar items and social media icons in the navigation bar remove default styling*/
-.menuItems, .s-mediaIcons {
+/*.menuItems, .s-mediaIcons {
   list-style-type: none;
 }
 
 /*all nav that are children of header*/
-header nav {
+/*header nav {
   display: flex;
   background-color: #439A97;
   height: 2em;
 }
 
 /*sets styling for the logo placeholder in the navigation bar*/
-div.logo {
+/*div.logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -55,7 +56,7 @@ div.logo {
 }
 
 /*creates flex container*/
-ul.menuItems {
+/*ul.menuItems {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +66,7 @@ ul.menuItems {
 }
 
 /*style all ul elements with the class s-mediaIcons*/
-ul.s-mediaIcons {
+/*ul.s-mediaIcons {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -76,12 +77,12 @@ ul.s-mediaIcons {
 }
 
 /*sets margin for social media icons*/
-.socMedIcon-fb, .socMedIcon-ig, .socMedIcon-twit {
+/*.socMedIcon-fb, .socMedIcon-ig, .socMedIcon-twit {
   margin-right: 0.5em;
 }
 
 /*sets margin for navigation menu items*/
-.home-Item, .about-Item, .blog-Item, .contact-Item {
+/*.home-Item, .about-Item, .blog-Item, .contact-Item {
   margin-right: 2em;
 }
 
@@ -210,7 +211,7 @@ span.contactItem {
   align-content: center;
   /*margin-top: auto;
   margin-bottom: auto;*/
-  height: 20em;
+  /*height: 20em;
   border: 0.1em solid #439A97;
 }
 
@@ -242,7 +243,7 @@ input[type=text], input[type=email] {
   background-color: #439A97;
 }*/
 
-.footer {
+/*.footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -257,7 +258,7 @@ input[type=text], input[type=email] {
   padding: 0.5em;
 }*/
 
-.footerMenu, .copyrightIcon {
+/*.footerMenu, .copyrightIcon {
   margin-left: auto;
   margin-right: auto;
 }
@@ -276,14 +277,14 @@ input[type=text], input[type=email] {
   padding: 0.5em;
 }*/
 
-span.yearItem {
+/*span.yearItem {
   font-family: Arial;
   font-weight: normal;
   font-size: 0.90em;
 }
 
   /*sets margin for social media icons*/
-  li.s-mediaIcon-sym {
+  /*li.s-mediaIcon-sym {
   margin-right: 0.5em;
 }
 
