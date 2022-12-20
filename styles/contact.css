@@ -2,23 +2,36 @@
   grid-area: ct;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   border: 2px solid red;
 }
 
-
 .contactMenu {
   background-color: #439A97;
+  margin-top: 0;
+  margin-bottom: auto;
   padding: 0.5em;
+  text-align: center;
   list-style-type: none;
+  border: 2px solid orange;
 }
 
-.contactHeader, .contactItem {
+.subMenu {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.contactHeader, .contactIcon {
+  margin-bottom: 1em;
+}
+
+/*.contactHeader, .contactItem {
   margin: auto 0.5em;
   text-align: center;
-}
+}*/
 
 #subBtn {
   font-size: 1em;
@@ -30,12 +43,39 @@
   margin-right: auto;
 }
 
-.textarea {
+input {
+  border-radius: 0.5em;
+  padding: 0.5em;
+  width: 17em;
+}
+
+span.contactItem {
+  font-family: Arial;
+  font-weight: normal;
+}
+
+form h2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+input[type=text], input[type=email] {
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.1em solid #439A97;
+}
+
+
+/*.textarea {
     border-radius: 0.5em;
     width: 17em;
 }
 
-/*.contact {
+.contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 600px;
