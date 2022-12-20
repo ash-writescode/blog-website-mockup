@@ -21,13 +21,13 @@ body {
 .fullPageContainer {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 5em 113em 8.5em 10em 7em;
+  grid-template-rows: 5em 117em 8.5em 10em 7em;
   grid-template-areas:
-    "hd"
-    "post"
-    "ct"
-    "sub"
-    "ft";
+    "hd hd"
+    "asd art"
+    "ct ct"
+    "sub sub"
+    "ft ft";
   row-gap: 0.5em;
   /*height: 100vh;*/
   border: 2px solid red;
