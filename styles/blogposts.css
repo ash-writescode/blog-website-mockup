@@ -2,8 +2,10 @@
     display: grid;
     border: 2px solid red;
     grid-template-columns: 200px 1fr;
+    grid-template-rows: 3em;
     grid-template-areas: 
     "asd art";
+    justify-content: start;
 }
 
 aside {
@@ -15,6 +17,14 @@ aside {
 
 article {
     grid-area: art;
+}
+
+.blogImageLarge {
+    width: 25em;
+}
+
+p.kicker {
+    text-align: left;
 }
 
 .rcntPostLst li, .rltdPostLst li, .mstPopPostLst li {
