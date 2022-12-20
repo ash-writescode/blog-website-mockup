@@ -2,19 +2,32 @@
     display: grid;
     border: 2px solid red;
     grid-template-columns: 200px 1fr;
+    grid-template-rows: 3em;
     grid-template-areas: 
     "asd art";
+    row-gap: 5em;
+    justify-content: start;
 }
 
 aside {
     grid-area: asd;
-    margin-top: 2em;
+    margin-top: 4em;
     margin-left: 2em;
     margin-right: 2em;
 }
 
 article {
     grid-area: art;
+    margin-top: 1em;
+}
+
+.blogImageLarge {
+    width: 25em;
+}
+
+p.kicker {
+    text-align: left;
+    font-style: italic;
 }
 
 .rcntPostLst li, .rltdPostLst li, .mstPopPostLst li {
@@ -26,3 +39,4 @@ article {
 .postParagraph {
     margin: 1em;
 }
+

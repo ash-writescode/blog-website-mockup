@@ -1,4 +1,39 @@
-.textarea {
+.contactContainer {
+  grid-area: ct;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #439A97;
+  border: 2px solid red;
+}
+
+.contactMenu {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0.5em;
+  text-align: center;
+  list-style-type: none;
+}
+
+.contactHeader {
+  margin-top: 1em;
+}
+
+.contactHeader, .contactIcon {
+  margin-bottom: 1em;
+}
+
+span.contactItem {
+  font-family: Arial;
+  font-weight: normal;
+}
+
+
+
+
+/*.textarea {
     border-radius: 0.5em;
     width: 17em;
 }

@@ -1,0 +1,34 @@
+@import url('./header.css');
+@import url('./blogposts.css');
+@import url('./contact.css');
+@import url('./subscribe.css');
+@import url('./footer.css');
+
+/*universal style selector applies the following styling to the whole page*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-size: 1em;
+}
+
+body {
+  height: 100vh;
+  border: 2px solid blue;
+}
+
+.fullPageContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5em 113em 8.5em 10em 7em;
+  grid-template-areas:
+    "hd"
+    "post"
+    "ct"
+    "sub"
+    "ft";
+  row-gap: 0.5em;
+  /*height: 100vh;*/
+  border: 2px solid red;
+}
