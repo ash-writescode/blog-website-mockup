@@ -3,22 +3,43 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     border: 2px solid green;
+    background-color: #439A97;
   }
 
+  /*styling for logo*/
+  .logo {
+    margin-left: 0.5em;
+    font-size: 2em;
+    border: 2px solid pink;
+  }
+
+  /*styling for nav list items*/
   ul li a {
     text-decoration: none;
   }
+
+  a.homeLink {
+    margin-right: 1em;
+  }
+
+  a.homeLink, a.blogLink {
+    font-size: 1.5em;
+    color: black;
+  }
+
+  .menuItems {
+    display: flex;
+    flex-direction: row;
+}
 
   /*navigation bar items and social media icons in the navigation bar remove default styling*/
 .menuItems, .s-mediaIcons {
     list-style-type: none;
   }
 
-.menuItems {
-    display: flex;
-    flex-direction: row;
-}
+
   
 
 
