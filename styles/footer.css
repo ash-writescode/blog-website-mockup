@@ -2,5 +2,47 @@
     grid-area: ft;
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1fr;
+    background-color: #439A97;
 }
+  
+  .footerMenu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5em;
+  }
+
+  /*footer bar items and copyright icon in the navigation bar remove default styling*/
+.footerMenu, .copyrightIcon {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .s-mediaIcon-fb {
+    margin-left: 0.5em;
+  }
+
+  .s-mediaIcon-fb, .s-mediaIcon-ig, .s-mediaIcon-twit, .s-mediaIcon-in {
+    margin-right: 1em;
+    font-size: 1.5em;
+  }
+  
+  .copyrightIcon {
+    margin-right: 0.5em;
+  }
+  
+  span.yearItem {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 0.90em;
+  }
+  
+/*sets margin for social media icons*/
+li.s-mediaIcon-sym {
+    margin-right: 0.5em;
+  }
+  
