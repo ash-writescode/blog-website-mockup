@@ -5,11 +5,11 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background-color: #439A97;
   border: 2px solid red;
 }
 
 .contactMenu {
-  background-color: #439A97;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0.5em;

@@ -28,7 +28,7 @@ body {
     "ct"
     "sub"
     "ft";
-    row-gap: 0.5em;
+  row-gap: 0.5em;
   /*height: 100vh;*/
   border: 2px solid red;
 }
