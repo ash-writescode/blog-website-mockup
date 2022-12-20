@@ -1,6 +1,7 @@
 @import url('./header.css');
 @import url('./blogCards.css');
 @import url('./contact.css');
+@import url('./subscribe.css');
 @import url('./footer.css');
 
 /*universal style selector applies the following styling to the whole page*/

@@ -26,48 +26,12 @@
   margin-bottom: 1em;
 }
 
-.contactItem {
-  font-weight: normal;
-}
-
-
-
-
-/*#subBtn {
-  font-size: 1em;
-  padding: 0.5em;
-  border-radius: 0.4em;
-  border: none;
-  background-color: #439A97;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-input {
-  border-radius: 0.5em;
-  padding: 0.5em;
-  width: 17em;
-}
-
 span.contactItem {
   font-family: Arial;
   font-weight: normal;
 }
 
-form h2 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: 0.5em;
-  text-align: center;
-}
 
-input[type=text], input[type=email] {
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border: 0.1em solid #439A97;
-}
 
 
 /*.textarea {
