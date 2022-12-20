@@ -20,11 +20,12 @@ body {
 .fullPageContainer {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 5em 150em 20em 5em;
+  grid-template-rows: 5em 150em 8.7em 10em 5em;
   grid-template-areas:
     "hd hd"
     "crds crds"
     "ct ct"
+    "sub sub"
     "ft ft";
     row-gap: 0.5em;
   /*height: 100vh;*/
