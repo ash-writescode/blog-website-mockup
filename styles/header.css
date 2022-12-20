@@ -1,3 +1,4 @@
+/*grid container for header content*/
 .headerContainer {
     grid-area: hd;
     display: flex;
@@ -12,40 +13,50 @@
   .logo {
     margin-left: 0.5em;
     font-size: 2em;
-    border: 2px solid pink;
+    font-weight: bold;
   }
 
-  /*styling for nav list items*/
+/*navigation bar items and social media icons in the navigation bar remove default styling*/
+.menuItems, .s-mediaIcons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*styling for nav list item links*/
   ul li a {
     text-decoration: none;
   }
 
+/*home link margin*/
   a.homeLink {
     margin-right: 1em;
   }
 
+/*text styling for home and blog links*/
   a.homeLink, a.blogLink {
-    font-size: 1.5em;
+    font-size: 1.7em;
+    font-weight: bold;
     color: black;
   }
 
+/*display for link items*/
   .menuItems {
     display: flex;
     flex-direction: row;
 }
 
-  /*navigation bar items and social media icons in the navigation bar remove default styling*/
-.menuItems, .s-mediaIcons {
-    list-style-type: none;
-  }
+.socMedIcon-fb, .socMedIcon-ig, .socMedIcon-twit {
+  margin-right: 1em;
+  font-size: 1.5em;
+}
 
+.socMedIcon-in {
+  margin-right: 0.5em;
+  font-size: 1.5em;
+}
 
   
 
 
-  /*all nav that are children of header*/
-  /*header nav {
-    display: flex;
-    background-color: #439A97;
-    height: 2em;
-  }
+  

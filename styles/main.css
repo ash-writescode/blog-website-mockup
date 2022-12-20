@@ -23,9 +23,10 @@ body {
   grid-template-rows: 5em 100em 5em 3em;
   grid-template-areas:
     "hd hd"
-    "blgcrds blgcrds"
+    "crds crds"
     "ct ct"
     "ft ft";
+    row-gap: 0.5em;
   height: 100%;
   border: 2px solid red;
 }
