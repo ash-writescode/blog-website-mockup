@@ -8,12 +8,10 @@
     gap: 1em;
     margin-right: 0.5em;
     margin-left: 0.5em;
-    border: 2px solid red;
 }
 
 .blogCard {
     background-color: #439A97;
-    border: 2px solid orange;
     border-radius: 5px;      
     color: #CBEDD5;
     height: 31em;
