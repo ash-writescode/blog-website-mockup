@@ -5,6 +5,7 @@
     grid-template-rows: 3em;
     grid-template-areas: 
     "asd art";
+    row-gap: 5em;
     justify-content: start;
 }
 
@@ -25,6 +26,7 @@ article {
 
 p.kicker {
     text-align: left;
+    font-style: italic;
 }
 
 .rcntPostLst li, .rltdPostLst li, .mstPopPostLst li {

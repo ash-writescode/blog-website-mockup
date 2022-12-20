@@ -21,10 +21,10 @@ body {
 .fullPageContainer {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 5em 150em 8.5em 10em 7em;
+  grid-template-rows: 5em 113em 8.5em 10em 7em;
   grid-template-areas:
     "hd"
-    "crds"
+    "post"
     "ct"
     "sub"
     "ft";
