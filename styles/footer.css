@@ -20,6 +20,15 @@
     padding: 0;
   }
 
+  .footerMenu {
+    margin-top: 1em;
+    margin-bottom: 0.75em;
+  }
+
+  .copyrightIcon {
+    margin-bottom: 1em;
+  }
+
   .s-mediaIcon-fb, .s-mediaIcon-ig, .s-mediaIcon-twit, .s-mediaIcon-in {
     margin-right: 1em;
     font-size: 1.5em;
