@@ -25,6 +25,8 @@
 
 .blogImageSmall {
     width: 6.7em;
+    border-radius: 0.4em;
+    margin-top: 0.75em; 
 }
 
 .rcntPostLst li, .rltdPostLst li, .mstPopPostLst li {
@@ -59,9 +61,9 @@
     margin-left: 1em;
 }
 
-a.rcntPost1, a.rcntPost2, a.rcntPost3, a.rcntPost4, a.rcntPost5 {
+a.rcntPost1, a.rcntPost2, a.rcntPost3, a.rcntPost4, a.rcntPost5, a.rltdPost1, a.rltdPost2, a.rltdPost3, a.rltdPost4, a.rltdPost5, a.mstPopPost1, a.mstPopPost2, a.mstPopPost3, a.mstPopPost4, a.mstPopPost5 {
     color: black;
-    margin-bottom: 1em;
+    text-decoration: none;
 }
 
 .blogImageLarge {
