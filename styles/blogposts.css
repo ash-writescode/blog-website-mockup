@@ -11,13 +11,20 @@
 .asideContainer {
     grid-area: asd;
     margin-top: 4em;
-    margin-left: 0.5em;
     margin-right: 2em;
+    margin-left: 0.5em;
+    background-color: #CBEDD5;
+    border: 2px solid red;
 }
 
 .articleContainer {
     grid-area: art;
     margin-top: 1em;
+    border: 2px solid red;
+}
+
+.blogImageSmall {
+    width: 6.7em;
 }
 
 .rcntPostLst li, .rltdPostLst li, .mstPopPostLst li {
