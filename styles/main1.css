@@ -36,22 +36,28 @@ body {
 @media screen and (max-width: 768px) {
   .fullPageContainer {
     grid-template-columns: 1fr;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .fullPageContainer {
+    grid-template-rows: 1fr;
     grid-template-areas:
       "hd"
       "crds"
       "ct"
       "sub"
       "ft";
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .fullPageContainer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    gap: 0;
+    grid-template-areas:
+      "hd"
+      "crds"
+      "ct"
+      "sub"
+      "ft";
+    row-gap: 0.5em;
   }
+}
 
 

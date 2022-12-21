@@ -65,23 +65,22 @@
 }
 
 @media screen and (max-width: 425px) {
-  .headerContainer, .homeLink, .blogLink {
+  .headerContainer, .menuItems, .s-mediaIcond {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
   }
 
-  .loho, .menuItems {
-    flex: 1;
+  .logo {
+    margin-top: 0.2em;
   }
 
-  .headerContainer {
-    margin-bottom: 0;
+  .s-mediaIcons {
+    margin-bottom: 0.2em;
+    font-size: 0.75em;
   }
 
-  .menuItems li a {
-    font-size: 18px;
-  }
 }
   
 
