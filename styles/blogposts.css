@@ -1,7 +1,7 @@
 .aside-article {
     display: grid;
     border: 2px solid red;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 20em 1fr;
     grid-template-rows: 3em;
     grid-template-areas: 
     "asd art";
@@ -21,9 +21,35 @@
     margin-top: 1em;
 }
 
-.aside {
-    background-color: blue;
-    border: 2px solid blue;
+.rcntPostHd {
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 0.25em;
+    padding-bottom: 0.5em;
+    padding-left: 0.25em;
+    border-radius: 0.4em;
+    background-color: #439A97;
+}
+
+.rltdPostHd, .mstPopPostHd {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    border-radius: 0.4em;
+    text-align: left;
+    background-color: #439A97;
+}
+
+.rcntPostLst, .rltdPostLst, .mstPopPostLst{
+    margin-left: 1em;
+}
+
+a.rcntPost1, a.rcntPost2, a.rcntPost3, a.rcntPost4, a.rcntPost5 {
+    color: black;
+    margin-bottom: 1em;
 }
 
 .blogImageLarge {
