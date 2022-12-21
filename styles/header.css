@@ -64,6 +64,21 @@
   font-size: 1.5em;
 }
 
+@media screen and (max-width: 425px) {
+  .logo, .menuItems, .s-mediaIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .headerContainer {
+    margin-bottom: 0;
+  }
+
+  .menuItems li a {
+    font-size: 18px;
+  }
+}
   
 
 
