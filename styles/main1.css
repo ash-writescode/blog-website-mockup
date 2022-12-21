@@ -34,13 +34,15 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .page-container {
-    grid-template-columns: 150px auto;
+  .fullPageContainer {
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100%;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .page-container {
+  .fullPageContainer {
     grid-template-areas:
       "hd"
       "crds"

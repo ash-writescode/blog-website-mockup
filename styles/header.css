@@ -65,10 +65,14 @@
 }
 
 @media screen and (max-width: 425px) {
-  .logo, .menuItems, .s-mediaIcons {
+  .headerContainer, .homeLink, .blogLink {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .loho, .menuItems {
+    flex: 1;
   }
 
   .headerContainer {
