@@ -15,7 +15,6 @@
 
 body {
   height: 100vh;
-  border: 2px solid blue;
 }
 
 .fullPageContainer {
@@ -30,5 +29,33 @@ body {
     "ft ft";
   row-gap: 0.5em;
   /*height: 100vh;*/
-  border: 2px solid red;
+}
+
+@media screen and (max-width: 768px) {
+  .fullPageContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "hd"
+      "art"
+      "asd"
+      "ct"
+      "sub"
+      "ft";
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .fullPageContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "hd"
+      "art"
+      "asd"
+      "ct"
+      "sub"
+      "ft";
+    row-gap: 0.5em;
+  }
 }
