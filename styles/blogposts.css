@@ -2,7 +2,6 @@
     display: grid;
     border: 2px solid red;
     grid-template-columns: 13em 1fr;
-    grid-template-rows: 3em;
     grid-template-areas: 
     "asd art";
     row-gap: 5em;
@@ -21,8 +20,18 @@
     margin-top: 1em;
 }
 
+.rcntPostLst li, .rltdPostLst li, .mstPopPostLst li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
 .rcntPostHd {
     margin-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
     border-radius: 0.4em;
     background-color: #439A97;
 }
@@ -30,6 +39,10 @@
 .rltdPostHd, .mstPopPostHd {
     margin-top: 2em;
     margin-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
     border-radius: 0.4em;
     text-align: left;
     background-color: #439A97;
@@ -46,6 +59,7 @@ a.rcntPost1, a.rcntPost2, a.rcntPost3, a.rcntPost4, a.rcntPost5 {
 
 .blogImageLarge {
     width: 25em;
+    margin-right: 0.5em;
 }
 
 p.kicker {
@@ -56,12 +70,6 @@ p.kicker {
 .avatarIcon {
     font-size: 2em;
     text-align: right;
-}
-
-.rcntPostLst li, .rltdPostLst li, .mstPopPostLst li {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
 }
 
 .postParagraph {
