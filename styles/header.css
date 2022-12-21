@@ -65,20 +65,47 @@
 }
 
 @media screen and (max-width: 425px) {
-  .headerContainer, .menuItems, .s-mediaIcond {
+  .headerContainer, .menuItems {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
   }
 
   .logo {
+    text-align: center;
     margin-top: 0.2em;
+    margin-right: auto;
+    margin-bottom: 0.3em;
+    margin-left: auto;
+  }
+
+  a.homeLink, a.blogLink {
+    text-align: center;
+    padding-top: 0.01em;
+    padding-right: 2em;
+    padding-bottom: 0.01em;
+    padding-left: 2em;
+    border-radius: 0.4em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  a:hover {
+    background-color: #97DECE;
   }
 
   .s-mediaIcons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
     margin-bottom: 0.2em;
     font-size: 0.75em;
+  }
+
+  a.socMedIcon-fb, a.socMedIcon-ig, a.socMedIcon-twit, a.socMedIcon-in {
+    margin-right: auto;
+    margin-left: auto;
   }
 
 }
