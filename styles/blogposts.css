@@ -67,7 +67,7 @@ figcaption {
 
 a.photoLinkCaption {
     text-decoration: none;
-    color: black;
+    color: #CBEDD5
 }
 
 p.kicker {
@@ -88,7 +88,7 @@ h1.blogPostTitle {
     margin-top: 1em;
 }
 
-.avatarIcon {
+.avatarIconSmall {
     font-size: 2em;
     text-align: right;
     margin-top: 0.4em;
@@ -102,4 +102,14 @@ blockquote {
     font-size: 1.5em;
     margin: 1.5em;
     border-left: 0.3em solid #439A97;
+}
+
+div.shortBio {
+    border: 1em solid #439A97;
+}
+
+.avatarIconLarge {
+    font-size: 5em;
+    text-align: right;
+    margin-top: 0.4em;
 }
