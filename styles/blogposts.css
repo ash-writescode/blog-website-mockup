@@ -61,6 +61,15 @@ a.rcntPost1, a.rcntPost2, a.rcntPost3, a.rcntPost4, a.rcntPost5, a.rltdPost1, a.
     margin-right: 0.5em;
 }
 
+figcaption {
+    font-size: 0.7em;
+}
+
+a.photoLinkCaption {
+    text-decoration: none;
+    color: black;
+}
+
 p.kicker {
     text-align: left;
     font-style: italic;
