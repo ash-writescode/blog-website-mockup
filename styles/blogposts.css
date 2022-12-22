@@ -95,12 +95,15 @@ h1.blogPostTitle {
 
 .postParagraph {
     margin: 1em;
+    width: 40em;
 }
 
 blockquote {
     font-size: 1.5em;
     margin: 1.5em;
     border-left: 0.3em solid #439A97;
+    padding-left: 1em;
+    width: 22em;
 }
 
 div.shortBio {
@@ -117,4 +120,11 @@ div.shortBio {
 p.shortBioDes {
     margin-top: 0.3em;
     margin-bottom: 0.7em;
+    width: 40em;
 }
+
+@media screen and (max-width: 768px) {
+    .postParagraph {
+    }
+  }
+  
