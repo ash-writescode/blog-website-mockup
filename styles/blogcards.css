@@ -19,11 +19,22 @@
     text-align: center;
     }
     
-    .blogCardsImage {
-      width: 15.4em;
-      height: 16.2em;
-      text-align: center;
+.blogCardsImage {
+   width: 15.4em;
+   height: 16.2em;
+   text-align: center;
     }
+
+figcaption {
+   font-size: 0.7em;
+   text-align: left;
+   margin-left: 1em;
+  }
+  
+  a.photoLinkCaption {
+      text-decoration: none;
+      color: #CBEDD5;
+  }
     
     button.readBtn {
       width: 210px;
