@@ -1,3 +1,13 @@
+.articleContainer {
+    grid-area: art;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
 .asideContainer {
     grid-area: asd;
     display: flex;
@@ -9,11 +19,6 @@
     margin-right: 2em;
     margin-left: 0.5em;
     background-color: #CBEDD5;
-}
-
-.articleContainer {
-    grid-area: art;
-    margin-top: 1em;
 }
 
 .blogImageSmall {

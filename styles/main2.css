@@ -19,14 +19,15 @@ body {
 
 .fullPageContainer {
   display: grid;
-  grid-template-columns: 12em 1fr;
-  grid-template-rows: 5em 127em 8.5em 10em 7em;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5em 127em 15em 8.5em 10em 7em;
   grid-template-areas:
-    "hd hd"
-    "asd art"
-    "ct ct"
-    "sub sub"
-    "ft ft";
+    "hd"
+    "art"
+    "asd"
+    "ct"
+    "sub"
+    "ft";
   row-gap: 0.5em;
   /*height: 100vh;*/
 }
