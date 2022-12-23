@@ -1,5 +1,10 @@
 .asideContainer {
     grid-area: asd;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
     margin-top: 4em;
     margin-right: 2em;
     margin-left: 0.5em;
@@ -98,6 +103,10 @@ h1.blogPostTitle {
     width: 40em;
 }
 
+.postParagraph10 {
+    margin-bottom: 3em;
+}
+
 blockquote {
     font-size: 1.5em;
     margin: 1.5em;
@@ -108,7 +117,8 @@ blockquote {
 
 div.shortBio {
     border-top: 0.2em solid #439A97;
-    border-bottom: 0.3em solid #439A97;
+    border-bottom: 0.2em solid #439A97;
+    width: 40em;
 }
 
 .avatarIconLarge{
@@ -117,14 +127,47 @@ div.shortBio {
     margin-top: 0.3em;
 }
 
+h2.tagline {
+    font-size: 1.5em;
+}
+
 p.shortBioDes {
     margin-top: 0.3em;
     margin-bottom: 0.7em;
     width: 40em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48em) {
+
+    .blogImageLarge {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
     .postParagraph {
+        margin-right: 0.75em;
+        margin-left: 0.75em;
+
+    }
+    .blogImageSmall {
+        width: 90%;
+        height: 50%;
     }
   }
   
+  @media screen and (max-width: 26.6em) {
+
+    .blogImageLarge {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    .postParagraph {
+        margin-right: 0.75em;
+        margin-left: 0.75em;
+    }
+    .blogImageSmall {
+        width: 90%;
+        height: 50%;
+    }
+  }

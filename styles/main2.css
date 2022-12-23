@@ -19,7 +19,7 @@ body {
 
 .fullPageContainer {
   display: grid;
-  grid-template-columns: 12em auto;
+  grid-template-columns: 12em 1fr;
   grid-template-rows: 5em 127em 8.5em 10em 7em;
   grid-template-areas:
     "hd hd"
@@ -31,7 +31,7 @@ body {
   /*height: 100vh;*/
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48em) {
   .fullPageContainer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -45,7 +45,7 @@ body {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 26.6em) {
   .fullPageContainer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
