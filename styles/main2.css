@@ -19,40 +19,47 @@ body {
 
 .fullPageContainer {
   display: grid;
-  grid-template-columns: 12em auto;
-  grid-template-rows: 5em 127em 8.5em 10em 7em;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5em 127em 10em 10em 10em 8.5em 10em 7em;
   grid-template-areas:
-    "hd hd"
-    "asd art"
-    "ct ct"
-    "sub sub"
-    "ft ft";
+    "hd"
+    "art"
+    "rcPost"
+    "rlPost"
+    "popPost"
+    "ct"
+    "sub"
+    "ft";
   row-gap: 0.5em;
   /*height: 100vh;*/
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48em) {
   .fullPageContainer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
       "hd"
       "art"
-      "asd"
+      "rcPost"
+      "rlPost"
+      "popPost"
       "ct"
       "sub"
       "ft";
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 26.6em) {
   .fullPageContainer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
       "hd"
       "art"
-      "asd"
+      "rcPost"
+      "rlPost"
+      "popPost"
       "ct"
       "sub"
       "ft";

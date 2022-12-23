@@ -1,20 +1,82 @@
-.asideContainer {
+.articleContainer {
+    grid-area: art;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.rcntPostContainer {
+    grid-area: rcPost;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10em;
+    background-color: #CBEDD5;
+}
+
+.rcntPostLst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    column-gap: 2em;
+}
+
+.rltdPostHdContainer {
+    grid-area: rlPost;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #CBEDD5;
+}
+
+.rltdPostLst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2em;
+}
+
+.mstPopPostHdContainer {
+    grid-area: popPost;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #CBEDD5;
+}
+
+.mstPopPostLst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2em;
+}
+
+/*.asideContainer {
     grid-area: asd;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
     margin-top: 4em;
     margin-right: 2em;
     margin-left: 0.5em;
     background-color: #CBEDD5;
-}
-
-.articleContainer {
-    grid-area: art;
-    margin-top: 1em;
-}
+}*/
 
 .blogImageSmall {
     width: 6.7em;
-    border-radius: 0.4em;
-    margin-top: 0.75em; 
+    border-radius: 0.4em; 
 }
 
 .rcntPostLst li, .rltdPostLst li, .mstPopPostLst li {
@@ -23,30 +85,16 @@
     list-style-type: none;
 }
 
-.rcntPostHd {
-    margin-bottom: 0.5em;
+.rcntPostHd, .rltdPostHd, .mstPopPostHd {
     padding-top: 0.5em;
     padding-right: 0.5em;
     padding-bottom: 0.5em;
     padding-left: 0.5em;
     border-radius: 0.4em;
-    background-color: #439A97;
-}
-
-.rltdPostHd, .mstPopPostHd {
-    margin-top: 2em;
-    margin-bottom: 0.5em;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 0.5em;
-    border-radius: 0.4em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
     text-align: left;
     background-color: #439A97;
-}
-
-.rcntPostLst, .rltdPostLst, .mstPopPostLst{
-    margin-left: 1em;
 }
 
 a.rcntPost1, a.rcntPost2, a.rcntPost3, a.rcntPost4, a.rcntPost5, a.rltdPost1, a.rltdPost2, a.rltdPost3, a.rltdPost4, a.rltdPost5, a.mstPopPost1, a.mstPopPost2, a.mstPopPost3, a.mstPopPost4, a.mstPopPost5 {
@@ -98,6 +146,10 @@ h1.blogPostTitle {
     width: 40em;
 }
 
+.postParagraph10 {
+    margin-bottom: 3em;
+}
+
 blockquote {
     font-size: 1.5em;
     margin: 1.5em;
@@ -108,7 +160,8 @@ blockquote {
 
 div.shortBio {
     border-top: 0.2em solid #439A97;
-    border-bottom: 0.3em solid #439A97;
+    border-bottom: 0.2em solid #439A97;
+    width: 40em;
 }
 
 .avatarIconLarge{
@@ -117,14 +170,47 @@ div.shortBio {
     margin-top: 0.3em;
 }
 
+h2.tagline {
+    font-size: 1.5em;
+}
+
 p.shortBioDes {
     margin-top: 0.3em;
     margin-bottom: 0.7em;
     width: 40em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48em) {
+
+    .blogImageLarge {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
     .postParagraph {
+        margin-right: 0.75em;
+        margin-left: 0.75em;
+
+    }
+    .blogImageSmall {
+        width: 90%;
+        height: 50%;
     }
   }
   
+  @media screen and (max-width: 26.6em) {
+
+    .blogImageLarge {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    .postParagraph {
+        margin-right: 0.75em;
+        margin-left: 0.75em;
+    }
+    .blogImageSmall {
+        width: 90%;
+        height: 50%;
+    }
+  }

@@ -63,7 +63,7 @@
   font-size: 1.5em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48em) {
   .headerContainer, .menuItems {
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 26.6em) {
   .headerContainer, .menuItems {
     display: flex;
     flex-direction: column;
