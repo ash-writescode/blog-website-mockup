@@ -6,6 +6,7 @@
     align-items: center;
     flex-wrap: nowrap;
     margin-top: 1em;
+    min-width: 0;
 }
 
 .rcntPostContainer {
@@ -15,6 +16,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    min-width: 0;
     background-color: #CBEDD5;
 }
 
@@ -134,7 +136,6 @@ h1.blogPostTitle {
 
 .postParagraph {
     margin: 1em;
-    width: 40em;
 }
 
 .postParagraph10 {
@@ -143,16 +144,20 @@ h1.blogPostTitle {
 
 blockquote {
     font-size: 1.5em;
-    margin: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
     border-left: 0.3em solid #439A97;
     padding-left: 1em;
-    width: 22em;
+    min-width: 0;
 }
 
 div.shortBio {
     border-top: 0.2em solid #439A97;
     border-bottom: 0.2em solid #439A97;
-    width: 40em;
+    margin-right: 1em;
+    margin-left: 1em;
+    min-width: 0;
 }
 
 .avatarIconLarge{
@@ -168,7 +173,7 @@ h2.tagline {
 p.shortBioDes {
     margin-top: 0.3em;
     margin-bottom: 0.7em;
-    width: 40em;
+    min-width: 0;
 }
 
 @media screen and (max-width: 48em) {
