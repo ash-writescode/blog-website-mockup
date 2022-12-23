@@ -17,62 +17,62 @@
     height: 31em;
     width: 15.7em;
     text-align: center;
-    }
+}
     
 .blogCardsImage {
    width: 15.4em;
    height: 16.2em;
    text-align: center;
-    }
+}
 
 figcaption {
    font-size: 0.7em;
    text-align: left;
    margin-left: 1em;
-  }
+}
   
-  a.photoLinkCaption {
-      text-decoration: none;
-      color: #CBEDD5;
-  }
+a.photoLinkCaption {
+    text-decoration: none;
+    color: #CBEDD5;
+}
     
-    button.readBtn {
-      width: 210px;
-      height: 40px;
-      background-color: #97DECE;
-      border: none;
-      border-radius: 4px;
-      margin-top: 0.75em; 
-      margin-bottom: 1em;
-    }
+button.readBtn {
+    width: 210px;
+    height: 40px;
+    background-color: #97DECE;
+    border: none;
+    border-radius: 4px;
+    margin-top: 0.75em; 
+    margin-bottom: 1em;
+}
     
-    .readBtn a {
-      color: #439A97;
-      font-weight: bold;
-      text-decoration: none;
-    }
+.readBtn a {
+    color: #439A97;
+    font-weight: bold;
+    text-decoration: none;
+}
     
-    .kicker {
-      text-align: left;
-      font-style: italic;
-      margin-top: 1em;
-      margin-left: 0.75em;
-    }
+.kicker {
+    text-align: left;
+    font-style: italic;
+    margin-top: 1em;
+    margin-left: 0.75em;
+}
     
-    .postTitle {
-      text-align: left;
-      margin-left: 0.75em;
-      margin-bottom: 0.75em;
-    }
+.postTitle {
+    text-align: left;
+    margin-left: 0.75em;
+    margin-bottom: 0.75em;
+}
     
-    .blogDate, .previewText {
-      text-align: left;
-      margin-top: 0.75em;
-      margin-left: 0.75em;
-    }
+.blogDate, .previewText {
+    text-align: left;
+    margin-top: 0.75em;
+    margin-left: 0.75em;
+}
     
-    .previewText {
-      margin-left: 0.75em;
-      margin-bottom: 0.75em;
-    }
+.previewText {
+    margin-left: 0.75em;
+    margin-bottom: 0.75em;
+}
     

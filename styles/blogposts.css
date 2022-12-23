@@ -189,6 +189,7 @@ p.shortBioDes {
         margin-top: 1em;
         margin-bottom: 1em;
       }
+
       .rcntPostLst, .rltdPostLst, .mstPopPostLst {
         display: flex;
         flex-direction: column;
@@ -198,15 +199,18 @@ p.shortBioDes {
         margin-left: auto;
         text-align: center;
       }
+
     .blogImageLarge {
         margin-right: auto;
         margin-left: auto;
         width: 100%;
     }
+
     .postParagraph {
         margin-right: 0.75em;
         margin-left: 0.75em;
     }
+
     .blogImageSmall {
         width: 90%;
         height: 50%;
@@ -228,6 +232,7 @@ p.shortBioDes {
         margin-top: 1em;
         margin-bottom: 1em;
       }
+
       .rcntPostLst, .rltdPostLst, .mstPopPostLst {
         display: flex;
         flex-direction: column;
@@ -237,15 +242,18 @@ p.shortBioDes {
         margin-left: auto;
         text-align: center;
       }
+
     .blogImageLarge {
         margin-right: auto;
         margin-left: auto;
         width: 100%;
     }
+
     .postParagraph {
         margin-right: 0.75em;
         margin-left: 0.75em;
     }
+    
     .blogImageSmall {
         width: 90%;
         height: 50%;
