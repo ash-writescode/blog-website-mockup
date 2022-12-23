@@ -20,11 +20,13 @@ body {
 .fullPageContainer {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 5em 127em 15em 8.5em 10em 7em;
+  grid-template-rows: 5em 127em 10em 10em 10em 8.5em 10em 7em;
   grid-template-areas:
     "hd"
     "art"
-    "asd"
+    "rcPost"
+    "rlPost"
+    "popPost"
     "ct"
     "sub"
     "ft";
@@ -39,7 +41,9 @@ body {
     grid-template-areas:
       "hd"
       "art"
-      "asd"
+      "rcPost"
+      "rlPost"
+      "popPost"
       "ct"
       "sub"
       "ft";
@@ -53,7 +57,9 @@ body {
     grid-template-areas:
       "hd"
       "art"
-      "asd"
+      "rcPost"
+      "rlPost"
+      "popPost"
       "ct"
       "sub"
       "ft";
