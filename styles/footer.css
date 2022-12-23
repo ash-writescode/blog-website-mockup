@@ -8,44 +8,44 @@
     background-color: #439A97;
 }
   
-  .footerMenu {
-    display: flex;
-  }
+.footerMenu {
+  display: flex;
+}
 
   /*footer bar items and copyright icon in the navigation bar remove default styling*/
 .footerMenu, .copyrightIcon {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
 
-  .footerMenu {
-    margin-top: 1em;
-    margin-bottom: 0.75em;
-  }
+.footerMenu {
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+}
 
-  .copyrightIcon {
-    margin-bottom: 1em;
-  }
+.copyrightIcon {
+  margin-bottom: 1em;
+}
 
-  .s-mediaIcon-fb, .s-mediaIcon-ig, .s-mediaIcon-twit, .s-mediaIcon-in {
-    margin-right: 1em;
-    font-size: 1.5em;
-  }
+.s-mediaIcon-fb, .s-mediaIcon-ig, .s-mediaIcon-twit, .s-mediaIcon-in {
+  margin-right: 1em;
+  font-size: 1.5em;
+}
   
-  .copyrightIcon {
-    margin-right: 0.5em;
-  }
+.copyrightIcon {
+  margin-right: 0.5em;
+}
   
-  span.yearItem {
-    font-family: Arial;
-    font-weight: normal;
-    font-size: 0.90em;
-  }
+span.yearItem {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 0.90em;
+}
   
 /*sets margin for social media icons*/
 li.s-mediaIcon-sym {
     margin-right: 0.5em;
-  }
+}
 
   

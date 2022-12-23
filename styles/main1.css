@@ -28,7 +28,6 @@ body {
     "sub"
     "ft";
   row-gap: 0.5em;
-  /*height: 100vh;*/
 }
 
 @media screen and (max-width: 48em) {
@@ -41,6 +40,7 @@ body {
       "ct"
       "sub"
       "ft";
+    row-gap: 0.5em;
   }
 }
 

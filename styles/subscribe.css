@@ -5,37 +5,37 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-  }
+}
 
-  .subMenu {
+.subMenu {
     text-align: center;
     margin-top: 0;
     margin-bottom: 1em;
-  }
+}
 
-  .subscribeHeader {
+.subscribeHeader {
     margin-top: 1em;
     margin-bottom: 0.75em;
     text-align: center;
-  }
+}
 
-  #subBtn {
+#subBtn {
     font-size: 1em;
     font-weight: bold;
     padding: 0.75em;
     border-radius: 0.4em;
     border: none;
     background-color: #439A97;
-  }
+}
 
-  input {
+input {
   border-radius: 0.5em;
   padding: 0.75em;
   width: 17em;
   margin-bottom: 0.75em;
 }
 
-  input[type=text], input[type=email] {
+input[type=text], input[type=email] {
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
