@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     margin-top: 1em;
 }
@@ -12,9 +12,9 @@
     grid-area: rcPost;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    height: 10em;
+    flex-wrap: wrap;
     background-color: #CBEDD5;
 }
 
@@ -23,7 +23,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 10em;
+    flex-wrap: wrap;
     column-gap: 2em;
 }
 
@@ -31,8 +31,9 @@
     grid-area: rlPost;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #CBEDD5;
 }
 
@@ -41,6 +42,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 2em;
 }
 
@@ -48,8 +50,9 @@
     grid-area: popPost;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #CBEDD5;
 }
 
@@ -58,21 +61,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 2em;
 }
-
-/*.asideContainer {
-    grid-area: asd;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-top: 4em;
-    margin-right: 2em;
-    margin-left: 0.5em;
-    background-color: #CBEDD5;
-}*/
 
 .blogImageSmall {
     width: 6.7em;
@@ -104,7 +95,7 @@ a.rcntPost1, a.rcntPost2, a.rcntPost3, a.rcntPost4, a.rcntPost5, a.rltdPost1, a.
 
 .blogImageLarge {
     display: block;
-    width: 25em;
+    width: 30em;
     margin-right: 0.5em;
 }
 
@@ -181,7 +172,27 @@ p.shortBioDes {
 }
 
 @media screen and (max-width: 48em) {
+    .articleContainer, .rcntPostContainer, .rltdPostHdContainer, .mstPopPostHdContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
 
+      .rcntPostHd, .rltdPostHd, .mstPopPostHd {
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      .rcntPostLst, .rltdPostLst, .mstPopPostLst {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 2em;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+      }
     .blogImageLarge {
         margin-right: auto;
         margin-left: auto;
@@ -190,16 +201,23 @@ p.shortBioDes {
     .postParagraph {
         margin-right: 0.75em;
         margin-left: 0.75em;
-
     }
     .blogImageSmall {
         width: 90%;
         height: 50%;
+        margin-right: auto;
+        margin-left: auto;
     }
   }
   
   @media screen and (max-width: 26.6em) {
-
+    .articleContainer, .rcntPostContainer, .rltdPostHdContainer, .mstPopPostHdContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
     .blogImageLarge {
         margin-right: auto;
         margin-left: auto;
