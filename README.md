@@ -1,2 +1,2 @@
 # blog-website-mockup
-A portfolio project as part of the Udacity front end development nanodegree program. Currently under construction by me.
+A portfolio project as part of the Udacity front end development nanodegree program. I built a responsive website using html and css. The mockup contains two pages a main homepage and a blog posts page. Html was use to structure the pages content and css grid and flexbox were used for 2D and 1D layout for the pages. Media queries were used to make the webpage responsive on tablet and mobile size screens. Completed.
